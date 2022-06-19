@@ -1,0 +1,1568 @@
+ID   ISCU_ECOLI              Reviewed;         128 AA.
+AC   P0ACD4; P77310;
+DT   22-NOV-2005, integrated into UniProtKB/Swiss-Prot.
+DT   22-NOV-2005, sequence version 1.
+DT   25-MAY-2022, entry version 129.
+DE   RecName: Full=Iron-sulfur cluster assembly scaffold protein IscU;
+DE   AltName: Full=Sulfur acceptor protein IscU;
+GN   Name=iscU; Synonyms=nifU, yfhN; OrderedLocusNames=b2529, JW2513;
+OS   Escherichia coli (strain K12).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Escherichia.
+OX   NCBI_TaxID=83333;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / W3110 / ATCC 27325 / DSM 5911;
+RX   PubMed=9205837; DOI=10.1093/dnares/4.2.91;
+RA   Yamamoto Y., Aiba H., Baba T., Hayashi K., Inada T., Isono K., Itoh T.,
+RA   Kimura S., Kitagawa M., Makino K., Miki T., Mitsuhashi N., Mizobuchi K.,
+RA   Mori H., Nakade S., Nakamura Y., Nashimoto H., Oshima T., Oyama S.,
+RA   Saito N., Sampei G., Satoh Y., Sivasundaram S., Tagami H., Takahashi H.,
+RA   Takeda J., Takemoto K., Uehara K., Wada C., Yamagata S., Horiuchi T.;
+RT   "Construction of a contiguous 874-kb sequence of the Escherichia coli-K12
+RT   genome corresponding to 50.0-68.8 min on the linkage map and analysis of
+RT   its sequence features.";
+RL   DNA Res. 4:91-113(1997).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / MG1655 / ATCC 47076;
+RX   PubMed=9278503; DOI=10.1126/science.277.5331.1453;
+RA   Blattner F.R., Plunkett G. III, Bloch C.A., Perna N.T., Burland V.,
+RA   Riley M., Collado-Vides J., Glasner J.D., Rode C.K., Mayhew G.F.,
+RA   Gregor J., Davis N.W., Kirkpatrick H.A., Goeden M.A., Rose D.J., Mau B.,
+RA   Shao Y.;
+RT   "The complete genome sequence of Escherichia coli K-12.";
+RL   Science 277:1453-1462(1997).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / W3110 / ATCC 27325 / DSM 5911;
+RX   PubMed=16738553; DOI=10.1038/msb4100049;
+RA   Hayashi K., Morooka N., Yamamoto Y., Fujita K., Isono K., Choi S.,
+RA   Ohtsubo E., Baba T., Wanner B.L., Mori H., Horiuchi T.;
+RT   "Highly accurate genome sequences of Escherichia coli K-12 strains MG1655
+RT   and W3110.";
+RL   Mol. Syst. Biol. 2:E1-E5(2006).
+RN   [4]
+RP   FUNCTION AS A SULFUR ACCEPTOR, INTERACTION WITH ISCS, ACTIVITY REGULATION,
+RP   AND SUBUNIT.
+RX   PubMed=11577100; DOI=10.1074/jbc.m106907200;
+RA   Urbina H.D., Silberg J.J., Hoff K.G., Vickery L.E.;
+RT   "Transfer of sulfur from IscS to IscU during Fe/S cluster assembly.";
+RL   J. Biol. Chem. 276:44521-44526(2001).
+RN   [5]
+RP   FUNCTION, SUBUNIT, AND MUTAGENESIS OF ASP-39; LYS-89; ASN-90; SER-107 AND
+RP   GLU-111.
+RX   PubMed=22203963; DOI=10.1073/pnas.1114372109;
+RA   Kim J.H., Tonelli M., Markley J.L.;
+RT   "Disordered form of the scaffold protein IscU is the substrate for iron-
+RT   sulfur cluster assembly on cysteine desulfurase.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 109:454-459(2012).
+RN   [6]
+RP   STRUCTURE BY NMR OF APO-PROTEIN, AND MUTAGENESIS OF ASP-39; ASN-90; SER-107
+RP   AND GLU-111.
+RX   PubMed=22734684; DOI=10.1021/bi300579p;
+RA   Kim J.H., Tonelli M., Kim T., Markley J.L.;
+RT   "Three-dimensional structure and determinants of stability of the iron-
+RT   sulfur cluster scaffold protein IscU from Escherichia coli.";
+RL   Biochemistry 51:5557-5563(2012).
+CC   -!- FUNCTION: A scaffold on which IscS assembles Fe-S clusters. Exists as 2
+CC       interconverting forms, a structured (S) and disordered (D) form. The D-
+CC       state is the preferred substrate for IscS. Converts to the S-state when
+CC       an Fe-S cluster is assembled, which helps it dissociate from IscS to
+CC       transfer the Fe-S to an acceptor. It is likely that Fe-S cluster
+CC       coordination is flexible as the role of this complex is to build and
+CC       then hand off Fe-S clusters. {ECO:0000269|PubMed:11577100,
+CC       ECO:0000269|PubMed:22203963}.
+CC   -!- ACTIVITY REGULATION: Carboxymethylation by iodoacetic acid blocks
+CC       sulfur transfer to this protein. {ECO:0000269|PubMed:11577100}.
+CC   -!- SUBUNIT: Homodimer. Forms a heterotetramer with IscS; each subunit of
+CC       the IscS dimer contacts an IscU monomer. {ECO:0000269|PubMed:11577100,
+CC       ECO:0000269|PubMed:22203963}.
+CC   -!- INTERACTION:
+CC       P0ACD4; P0A6B7: iscS; NbExp=12; IntAct=EBI-561646, EBI-550055;
+CC       P0ACD4; P0ACD4: iscU; NbExp=5; IntAct=EBI-561646, EBI-561646;
+CC   -!- SIMILARITY: Belongs to the NifU family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; U00096; AAC75582.1; -; Genomic_DNA.
+DR   EMBL; AP009048; BAA16423.1; -; Genomic_DNA.
+DR   PIR; H65029; H65029.
+DR   RefSeq; NP_417024.1; NC_000913.3.
+DR   RefSeq; WP_000331707.1; NZ_STEB01000011.1.
+DR   PDB; 2KQK; NMR; -; A=1-128.
+DR   PDB; 2L4X; NMR; -; A=1-128.
+DR   PDBsum; 2KQK; -.
+DR   PDBsum; 2L4X; -.
+DR   AlphaFoldDB; P0ACD4; -.
+DR   BMRB; P0ACD4; -.
+DR   SASBDB; P0ACD4; -.
+DR   SMR; P0ACD4; -.
+DR   BioGRID; 4259432; 63.
+DR   BioGRID; 851341; 5.
+DR   ComplexPortal; CPX-2141; iscS-iscU iron-sulfur cluster assembly complex.
+DR   DIP; DIP-48025N; -.
+DR   IntAct; P0ACD4; 17.
+DR   STRING; 511145.b2529; -.
+DR   jPOST; P0ACD4; -.
+DR   PaxDb; P0ACD4; -.
+DR   PRIDE; P0ACD4; -.
+DR   EnsemblBacteria; AAC75582; AAC75582; b2529.
+DR   EnsemblBacteria; BAA16423; BAA16423; BAA16423.
+DR   GeneID; 67416913; -.
+DR   GeneID; 947002; -.
+DR   KEGG; ecj:JW2513; -.
+DR   KEGG; eco:b2529; -.
+DR   PATRIC; fig|1411691.4.peg.4205; -.
+DR   EchoBASE; EB3176; -.
+DR   eggNOG; COG0822; Bacteria.
+DR   HOGENOM; CLU_079283_5_0_6; -.
+DR   InParanoid; P0ACD4; -.
+DR   OMA; YKNPRNY; -.
+DR   PhylomeDB; P0ACD4; -.
+DR   BioCyc; EcoCyc:G7324-MONOMER; -.
+DR   EvolutionaryTrace; P0ACD4; -.
+DR   PRO; PR:P0ACD4; -.
+DR   Proteomes; UP000000318; Chromosome.
+DR   Proteomes; UP000000625; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IBA:GO_Central.
+DR   GO; GO:0005829; C:cytosol; IDA:EcoCyc.
+DR   GO; GO:1990330; C:IscS-IscU complex; IPI:ComplexPortal.
+DR   GO; GO:0051537; F:2 iron, 2 sulfur cluster binding; IDA:EcoCyc.
+DR   GO; GO:0051539; F:4 iron, 4 sulfur cluster binding; IDA:EcoCyc.
+DR   GO; GO:0008198; F:ferrous iron binding; IBA:GO_Central.
+DR   GO; GO:0042802; F:identical protein binding; IPI:IntAct.
+DR   GO; GO:0006879; P:cellular iron ion homeostasis; IBA:GO_Central.
+DR   GO; GO:0016226; P:iron-sulfur cluster assembly; IDA:EcoCyc.
+DR   GO; GO:0019448; P:L-cysteine catabolic process; IC:ComplexPortal.
+DR   CDD; cd06664; IscU_like; 1.
+DR   InterPro; IPR011339; ISC_FeS_clus_asmbl_IscU.
+DR   InterPro; IPR002871; NIF_FeS_clus_asmbl_NifU_N.
+DR   PANTHER; PTHR10093; PTHR10093; 1.
+DR   Pfam; PF01592; NifU_N; 1.
+DR   TIGRFAMs; TIGR01999; iscU; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Reference proteome.
+FT   CHAIN           1..128
+FT                   /note="Iron-sulfur cluster assembly scaffold protein IscU"
+FT                   /id="PRO_0000166184"
+FT   MUTAGEN         39
+FT                   /note="D->A,L,V: Stabilizes apo-protein in the S-state
+FT                   (structured)."
+FT                   /evidence="ECO:0000269|PubMed:22203963,
+FT                   ECO:0000269|PubMed:22734684"
+FT   MUTAGEN         39
+FT                   /note="D->G: No effect on equilibrium between S- and D-
+FT                   state (disordered)."
+FT                   /evidence="ECO:0000269|PubMed:22203963,
+FT                   ECO:0000269|PubMed:22734684"
+FT   MUTAGEN         89
+FT                   /note="K->A: Stabilizes apo-protein in the D-state; Fe-S
+FT                   cluster assembly 3-fold slower than wild-type."
+FT                   /evidence="ECO:0000269|PubMed:22203963"
+FT   MUTAGEN         90
+FT                   /note="N->A: Stabilizes apo-protein in the S-state;
+FT                   biphasic Fe-S cluster assembly 7-fold slower than wild-
+FT                   type."
+FT                   /evidence="ECO:0000269|PubMed:22203963,
+FT                   ECO:0000269|PubMed:22734684"
+FT   MUTAGEN         90
+FT                   /note="N->D: Stabilizes apo-protein in the D-state; Fe-S
+FT                   cluster assembly 3-fold slower than wild-type."
+FT                   /evidence="ECO:0000269|PubMed:22203963,
+FT                   ECO:0000269|PubMed:22734684"
+FT   MUTAGEN         107
+FT                   /note="S->A: Stabilizes apo-protein in the S-state;
+FT                   biphasic Fe-S cluster assembly 7-fold slower than wild-
+FT                   type."
+FT                   /evidence="ECO:0000269|PubMed:22203963,
+FT                   ECO:0000269|PubMed:22734684"
+FT   MUTAGEN         111
+FT                   /note="E->A: Stabilizes apo-protein in the S-state;
+FT                   biphasic Fe-S cluster assembly 7-fold slower than wild-
+FT                   type."
+FT                   /evidence="ECO:0000269|PubMed:22203963,
+FT                   ECO:0000269|PubMed:22734684"
+FT   STRAND          11..13
+FT                   /evidence="ECO:0007829|PDB:2KQK"
+FT   STRAND          18..22
+FT                   /evidence="ECO:0007829|PDB:2L4X"
+FT   STRAND          25..27
+FT                   /evidence="ECO:0007829|PDB:2L4X"
+FT   STRAND          29..34
+FT                   /evidence="ECO:0007829|PDB:2KQK"
+FT   TURN            35..38
+FT                   /evidence="ECO:0007829|PDB:2KQK"
+FT   STRAND          39..47
+FT                   /evidence="ECO:0007829|PDB:2KQK"
+FT   STRAND          52..59
+FT                   /evidence="ECO:0007829|PDB:2KQK"
+FT   STRAND          62..65
+FT                   /evidence="ECO:0007829|PDB:2KQK"
+FT   HELIX           68..77
+FT                   /evidence="ECO:0007829|PDB:2KQK"
+FT   HELIX           82..87
+FT                   /evidence="ECO:0007829|PDB:2KQK"
+FT   HELIX           90..97
+FT                   /evidence="ECO:0007829|PDB:2KQK"
+FT   TURN            102..104
+FT                   /evidence="ECO:0007829|PDB:2L4X"
+FT   HELIX           105..126
+FT                   /evidence="ECO:0007829|PDB:2KQK"
+SQ   SEQUENCE   128 AA;  13849 MW;  47516021442B6535 CRC64;
+     MAYSEKVIDH YENPRNVGSF DNNDENVGSG MVGAPACGDV MKLQIKVNDE GIIEDARFKT
+     YGCGSAIASS SLVTEWVKGK SLDEAQAIKN TDIAEELELP PVKIHCSILA EDAIKAAIAD
+     YKSKREAK
+//
+ID   FOLB_ECOLI              Reviewed;         122 AA.
+AC   P0AC16; P31055; P76659; Q2M9E7;
+DT   08-NOV-2005, integrated into UniProtKB/Swiss-Prot.
+DT   08-NOV-2005, sequence version 1.
+DT   25-MAY-2022, entry version 118.
+DE   RecName: Full=Dihydroneopterin aldolase {ECO:0000303|PubMed:9651328};
+DE            Short=DHNA {ECO:0000303|PubMed:25264482};
+DE            EC=4.1.2.25 {ECO:0000269|PubMed:9651328};
+DE   AltName: Full=7,8-dihydroneopterin 2'-epimerase;
+DE   AltName: Full=7,8-dihydroneopterin aldolase;
+DE   AltName: Full=7,8-dihydroneopterin epimerase;
+DE            EC=5.1.99.8 {ECO:0000269|PubMed:9651328};
+DE   AltName: Full=Dihydroneopterin epimerase;
+GN   Name=folB {ECO:0000303|PubMed:9651328}; Synonyms=ygiG;
+GN   OrderedLocusNames=b3058, JW3030;
+OS   Escherichia coli (strain K12).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Escherichia.
+OX   NCBI_TaxID=83333;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=K12 / ATCC 35607 / JM83;
+RX   PubMed=8389741; DOI=10.1128/jb.175.12.3784-3789.1993;
+RA   Cain B.D., Norton P.J., Eubanks W., Nick H.S., Allen C.M.;
+RT   "Amplification of the bacA gene confers bacitracin resistance to
+RT   Escherichia coli.";
+RL   J. Bacteriol. 175:3784-3789(1993).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / MG1655 / ATCC 47076;
+RX   PubMed=9278503; DOI=10.1126/science.277.5331.1453;
+RA   Blattner F.R., Plunkett G. III, Bloch C.A., Perna N.T., Burland V.,
+RA   Riley M., Collado-Vides J., Glasner J.D., Rode C.K., Mayhew G.F.,
+RA   Gregor J., Davis N.W., Kirkpatrick H.A., Goeden M.A., Rose D.J., Mau B.,
+RA   Shao Y.;
+RT   "The complete genome sequence of Escherichia coli K-12.";
+RL   Science 277:1453-1462(1997).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / W3110 / ATCC 27325 / DSM 5911;
+RX   PubMed=16738553; DOI=10.1038/msb4100049;
+RA   Hayashi K., Morooka N., Yamamoto Y., Fujita K., Isono K., Choi S.,
+RA   Ohtsubo E., Baba T., Wanner B.L., Mori H., Horiuchi T.;
+RT   "Highly accurate genome sequences of Escherichia coli K-12 strains MG1655
+RT   and W3110.";
+RL   Mol. Syst. Biol. 2:E1-E5(2006).
+RN   [4]
+RP   FUNCTION, CATALYTIC ACTIVITY, SUBUNIT, BIOPHYSICOCHEMICAL PROPERTIES, AND
+RP   REACTION MECHANISM.
+RX   PubMed=9651328; DOI=10.1074/jbc.273.28.17418;
+RA   Haussmann C., Rohdich F., Schmidt E., Bacher A., Richter G.;
+RT   "Biosynthesis of pteridines in Escherichia coli. Structural and mechanistic
+RT   similarity of dihydroneopterin-triphosphate epimerase and dihydroneopterin
+RT   aldolase.";
+RL   J. Biol. Chem. 273:17418-17424(1998).
+RN   [5]
+RP   X-RAY CRYSTALLOGRAPHY (1.07 ANGSTROMS) IN COMPLEX WITH L-NEOPTERIN, AND
+RP   REACTION MECHANISM.
+RX   PubMed=25264482; DOI=10.1186/2045-3701-4-52;
+RA   Blaszczyk J., Lu Z., Li Y., Yan H., Ji X.;
+RT   "Crystallographic and molecular dynamics simulation analysis of Escherichia
+RT   coli dihydroneopterin aldolase.";
+RL   Cell Biosci. 4:52-52(2014).
+CC   -!- FUNCTION: Catalyzes the conversion of 7,8-dihydroneopterin to 6-
+CC       hydroxymethyl-7,8-dihydropterin. Can use L-threo-dihydroneopterin and
+CC       D-erythro-dihydroneopterin as substrates for the formation of 6-
+CC       hydroxymethyldihydropterin, but it can also catalyze the epimerization
+CC       of carbon 2' of dihydroneopterin to dihydromonapterin at appreciable
+CC       velocity. {ECO:0000269|PubMed:9651328}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=7,8-dihydroneopterin = 6-hydroxymethyl-7,8-dihydropterin +
+CC         glycolaldehyde; Xref=Rhea:RHEA:10540, ChEBI:CHEBI:17001,
+CC         ChEBI:CHEBI:17071, ChEBI:CHEBI:44841; EC=4.1.2.25;
+CC         Evidence={ECO:0000269|PubMed:9651328};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=7,8-dihydroneopterin = 7,8-dihydromonapterin;
+CC         Xref=Rhea:RHEA:45328, ChEBI:CHEBI:17001, ChEBI:CHEBI:71175;
+CC         EC=5.1.99.8; Evidence={ECO:0000269|PubMed:9651328};
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=64 uM for 7,8-dihydroneopterin in aldolase reaction
+CC         {ECO:0000269|PubMed:9651328};
+CC         KM=45 uM for 7,8-dihydroneopterin in epimerase reaction
+CC         {ECO:0000269|PubMed:9651328};
+CC         KM=36 uM for 7,8-dihydromonapterin in aldolase reaction
+CC         {ECO:0000269|PubMed:9651328};
+CC         KM=57 uM for 7,8-dihydromonapterin in epimerase reaction
+CC         {ECO:0000269|PubMed:9651328};
+CC         Vmax=127 umol/h/mg enzyme toward 7,8-dihydroneopterin in aldolase
+CC         reaction {ECO:0000269|PubMed:9651328};
+CC         Vmax=20.3 umol/h/mg enzyme toward 7,8-dihydroneopterin in epimerase
+CC         reaction {ECO:0000269|PubMed:9651328};
+CC         Vmax=158 umol/h/mg enzyme toward 7,8-dihydromonapterin in aldolase
+CC         reaction {ECO:0000269|PubMed:9651328};
+CC         Vmax=15.6 umol/h/mg enzyme toward 7,8-dihydromonapterin in epimerase
+CC         reaction {ECO:0000269|PubMed:9651328};
+CC   -!- PATHWAY: Cofactor biosynthesis; tetrahydrofolate biosynthesis; 2-amino-
+CC       4-hydroxy-6-hydroxymethyl-7,8-dihydropteridine diphosphate from 7,8-
+CC       dihydroneopterin triphosphate: step 3/4.
+CC   -!- SUBUNIT: Homooctamer. {ECO:0000269|PubMed:9651328}.
+CC   -!- SIMILARITY: Belongs to the DHNA family. {ECO:0000305}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAA89138.1; Type=Erroneous initiation; Note=Extended N-terminus.; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; L12966; -; NOT_ANNOTATED_CDS; Genomic_DNA.
+DR   EMBL; U28379; AAA89138.1; ALT_INIT; Genomic_DNA.
+DR   EMBL; U00096; AAC76094.2; -; Genomic_DNA.
+DR   EMBL; AP009048; BAE77109.1; -; Genomic_DNA.
+DR   PIR; H65093; H65093.
+DR   RefSeq; NP_417530.2; NC_000913.3.
+DR   RefSeq; WP_001295541.1; NZ_STEB01000001.1.
+DR   PDB; 2O90; X-ray; 1.07 A; A=1-122.
+DR   PDBsum; 2O90; -.
+DR   AlphaFoldDB; P0AC16; -.
+DR   SMR; P0AC16; -.
+DR   DIP; DIP-36044N; -.
+DR   IntAct; P0AC16; 2.
+DR   STRING; 511145.b3058; -.
+DR   PaxDb; P0AC16; -.
+DR   PRIDE; P0AC16; -.
+DR   EnsemblBacteria; AAC76094; AAC76094; b3058.
+DR   EnsemblBacteria; BAE77109; BAE77109; BAE77109.
+DR   GeneID; 67414995; -.
+DR   GeneID; 947544; -.
+DR   KEGG; ecj:JW3030; -.
+DR   KEGG; eco:b3058; -.
+DR   PATRIC; fig|1411691.4.peg.3673; -.
+DR   EchoBASE; EB1624; -.
+DR   eggNOG; COG1539; Bacteria.
+DR   HOGENOM; CLU_112632_0_2_6; -.
+DR   InParanoid; P0AC16; -.
+DR   OMA; GIYEWEK; -.
+DR   PhylomeDB; P0AC16; -.
+DR   BioCyc; EcoCyc:H2NEOPTERINALDOL-MONOMER; -.
+DR   BRENDA; 1.13.11.81; 2026.
+DR   BRENDA; 4.1.2.25; 2026.
+DR   SABIO-RK; P0AC16; -.
+DR   UniPathway; UPA00077; UER00154.
+DR   EvolutionaryTrace; P0AC16; -.
+DR   PRO; PR:P0AC16; -.
+DR   Proteomes; UP000000318; Chromosome.
+DR   Proteomes; UP000000625; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IBA:GO_Central.
+DR   GO; GO:0004150; F:dihydroneopterin aldolase activity; IDA:EcoCyc.
+DR   GO; GO:0042802; F:identical protein binding; IDA:EcoCyc.
+DR   GO; GO:0016853; F:isomerase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0046656; P:folic acid biosynthetic process; IEA:UniProtKB-KW.
+DR   GO; GO:0046654; P:tetrahydrofolate biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   CDD; cd00534; DHNA_DHNTPE; 1.
+DR   Gene3D; 3.30.1130.10; -; 1.
+DR   InterPro; IPR006156; Dihydroneopterin_aldolase.
+DR   InterPro; IPR006157; FolB_dom.
+DR   InterPro; IPR043133; GTP-CH-I_C/QueF.
+DR   PANTHER; PTHR42844; PTHR42844; 1.
+DR   Pfam; PF02152; FolB; 1.
+DR   SMART; SM00905; FolB; 1.
+DR   TIGRFAMs; TIGR00525; folB; 1.
+DR   TIGRFAMs; TIGR00526; folB_dom; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Folate biosynthesis; Isomerase; Lyase; Reference proteome.
+FT   CHAIN           1..122
+FT                   /note="Dihydroneopterin aldolase"
+FT                   /id="PRO_0000168269"
+FT   REGION          72..73
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000305|PubMed:25264482,
+FT                   ECO:0007744|PDB:2O90"
+FT   ACT_SITE        98
+FT                   /note="Proton donor/acceptor"
+FT                   /evidence="ECO:0000250|UniProtKB:P56740,
+FT                   ECO:0000305|PubMed:25264482"
+FT   BINDING         21
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000305|PubMed:25264482,
+FT                   ECO:0007744|PDB:2O90"
+FT   BINDING         53
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000305|PubMed:25264482,
+FT                   ECO:0007744|PDB:2O90"
+FT   CONFLICT        81..82
+FT                   /note="EL -> DV (in Ref. 1; L12966)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        100..122
+FT                   /note="GAVARAANVGVIIERGNNLKENN -> ASGAGGECWRNH (in Ref. 1;
+FT                   L12966)"
+FT                   /evidence="ECO:0000305"
+FT   STRAND          2..15
+FT                   /evidence="ECO:0007829|PDB:2O90"
+FT   HELIX           19..23
+FT                   /evidence="ECO:0007829|PDB:2O90"
+FT   STRAND          26..36
+FT                   /evidence="ECO:0007829|PDB:2O90"
+FT   HELIX           39..44
+FT                   /evidence="ECO:0007829|PDB:2O90"
+FT   HELIX           47..49
+FT                   /evidence="ECO:0007829|PDB:2O90"
+FT   HELIX           53..64
+FT                   /evidence="ECO:0007829|PDB:2O90"
+FT   STRAND          68..70
+FT                   /evidence="ECO:0007829|PDB:2O90"
+FT   HELIX           72..86
+FT                   /evidence="ECO:0007829|PDB:2O90"
+FT   STRAND          92..97
+FT                   /evidence="ECO:0007829|PDB:2O90"
+FT   STRAND          109..114
+FT                   /evidence="ECO:0007829|PDB:2O90"
+SQ   SEQUENCE   122 AA;  13620 MW;  BEA82C1E0AA38A55 CRC64;
+     MDIVFIEQLS VITTIGVYDW EQTIEQKLVF DIEMAWDNRK AAKSDDVADC LSYADIAETV
+     VSHVEGARFA LVERVAEEVA ELLLARFNSP WVRIKLSKPG AVARAANVGV IIERGNNLKE
+     NN
+//
+ID   RISA_ECOLI              Reviewed;         213 AA.
+AC   P0AFU8; P29015;
+DT   20-DEC-2005, integrated into UniProtKB/Swiss-Prot.
+DT   20-DEC-2005, sequence version 1.
+DT   25-MAY-2022, entry version 126.
+DE   RecName: Full=Riboflavin synthase;
+DE            Short=RS;
+DE            EC=2.5.1.9;
+GN   Name=ribC; Synonyms=ribE; OrderedLocusNames=b1662, JW1654;
+OS   Escherichia coli (strain K12).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Escherichia.
+OX   NCBI_TaxID=83333;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], FUNCTION, CATALYTIC ACTIVITY, AND
+RP   SUBUNIT.
+RC   STRAIN=K12 / RR28;
+RX   PubMed=9022701; DOI=10.1111/j.1432-1033.1996.0712r.x;
+RA   Eberhardt S.M.R., Richter G., Gimbel W., Werner T., Bacher A.;
+RT   "Cloning, sequencing, mapping and hyperexpression of the ribC gene coding
+RT   for riboflavin synthase of Escherichia coli.";
+RL   Eur. J. Biochem. 242:712-719(1996).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=K12 / MG1655 / ATCC 47076;
+RX   PubMed=9023191; DOI=10.1128/jb.179.4.1105-1111.1997;
+RA   Hensel M., Shea J.E., Baeumler A.J., Gleeson C., Blattner F.R.,
+RA   Holden D.W.;
+RT   "Analysis of the boundaries of Salmonella pathogenicity island 2 and the
+RT   corresponding chromosomal region of Escherichia coli K-12.";
+RL   J. Bacteriol. 179:1105-1111(1997).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / W3110 / ATCC 27325 / DSM 5911;
+RX   PubMed=9097039; DOI=10.1093/dnares/3.6.363;
+RA   Aiba H., Baba T., Fujita K., Hayashi K., Inada T., Isono K., Itoh T.,
+RA   Kasai H., Kashimoto K., Kimura S., Kitakawa M., Kitagawa M., Makino K.,
+RA   Miki T., Mizobuchi K., Mori H., Mori T., Motomura K., Nakade S.,
+RA   Nakamura Y., Nashimoto H., Nishio Y., Oshima T., Saito N., Sampei G.,
+RA   Seki Y., Sivasundaram S., Tagami H., Takeda J., Takemoto K., Takeuchi Y.,
+RA   Wada C., Yamamoto Y., Horiuchi T.;
+RT   "A 570-kb DNA sequence of the Escherichia coli K-12 genome corresponding to
+RT   the 28.0-40.1 min region on the linkage map.";
+RL   DNA Res. 3:363-377(1996).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / MG1655 / ATCC 47076;
+RX   PubMed=9278503; DOI=10.1126/science.277.5331.1453;
+RA   Blattner F.R., Plunkett G. III, Bloch C.A., Perna N.T., Burland V.,
+RA   Riley M., Collado-Vides J., Glasner J.D., Rode C.K., Mayhew G.F.,
+RA   Gregor J., Davis N.W., Kirkpatrick H.A., Goeden M.A., Rose D.J., Mau B.,
+RA   Shao Y.;
+RT   "The complete genome sequence of Escherichia coli K-12.";
+RL   Science 277:1453-1462(1997).
+RN   [5]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / W3110 / ATCC 27325 / DSM 5911;
+RX   PubMed=16738553; DOI=10.1038/msb4100049;
+RA   Hayashi K., Morooka N., Yamamoto Y., Fujita K., Isono K., Choi S.,
+RA   Ohtsubo E., Baba T., Wanner B.L., Mori H., Horiuchi T.;
+RT   "Highly accurate genome sequences of Escherichia coli K-12 strains MG1655
+RT   and W3110.";
+RL   Mol. Syst. Biol. 2:E1-E5(2006).
+RN   [6]
+RP   STRUCTURE BY NMR OF 1-97 IN COMPLEX WITH RIBOFLAVIN.
+RX   PubMed=11399071; DOI=10.1006/jmbi.2001.4683;
+RA   Truffault V., Coles M., Diercks T., Abelmann K., Eberhardt S., Luttgen H.,
+RA   Bacher A., Kessler H.;
+RT   "The solution structure of the N-terminal domain of riboflavin synthase.";
+RL   J. Mol. Biol. 309:949-960(2001).
+RN   [7]
+RP   X-RAY CRYSTALLOGRAPHY (2.0 ANGSTROMS).
+RX   PubMed=11377200; DOI=10.1016/s0969-2126(01)00600-1;
+RA   Liao D.I., Wawrzak Z., Calabrese J.C., Viitanen P.V., Jordan D.B.;
+RT   "Crystal structure of riboflavin synthase.";
+RL   Structure 9:399-408(2001).
+RN   [8]
+RP   X-RAY CRYSTALLOGRAPHY (2.60 ANGSTROMS) OF 1-97 IN COMPLEX WITH RIBOFLAVIN.
+RX   PubMed=12927541; DOI=10.1016/s0022-2836(03)00844-1;
+RA   Meining W., Eberhardt S., Bacher A., Ladenstein R.;
+RT   "The structure of the N-terminal domain of riboflavin synthase in complex
+RT   with riboflavin at 2.6A resolution.";
+RL   J. Mol. Biol. 331:1053-1063(2003).
+CC   -!- FUNCTION: Catalyzes the dismutation of two molecules of 6,7-dimethyl-8-
+CC       ribityllumazine, resulting in the formation of riboflavin and 5-amino-
+CC       6-(D-ribitylamino)uracil. {ECO:0000269|PubMed:9022701}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2 6,7-dimethyl-8-(1-D-ribityl)lumazine + H(+) = 5-amino-6-(D-
+CC         ribitylamino)uracil + riboflavin; Xref=Rhea:RHEA:20772,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:15934, ChEBI:CHEBI:57986,
+CC         ChEBI:CHEBI:58201; EC=2.5.1.9; Evidence={ECO:0000269|PubMed:9022701};
+CC   -!- PATHWAY: Cofactor biosynthesis; riboflavin biosynthesis; riboflavin
+CC       from 2-hydroxy-3-oxobutyl phosphate and 5-amino-6-(D-
+CC       ribitylamino)uracil: step 2/2.
+CC   -!- SUBUNIT: Homotrimer. Unlike in B.subtilis, does not interact with 6,7-
+CC       dimethyl-8-ribityllumazine synthase. {ECO:0000269|PubMed:11399071,
+CC       ECO:0000269|PubMed:12927541, ECO:0000269|PubMed:9022701}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; X69109; CAA48861.1; -; Genomic_DNA.
+DR   EMBL; U68703; AAB47940.1; -; Genomic_DNA.
+DR   EMBL; U00096; AAC74734.1; -; Genomic_DNA.
+DR   EMBL; AP009048; BAA15429.1; -; Genomic_DNA.
+DR   PIR; S28526; S28526.
+DR   RefSeq; NP_416179.1; NC_000913.3.
+DR   RefSeq; WP_000493947.1; NZ_SSZK01000001.1.
+DR   PDB; 1HZE; NMR; -; A/B=1-97.
+DR   PDB; 1I18; NMR; -; A/B=1-97.
+DR   PDB; 1I8D; X-ray; 2.00 A; A/B/C=1-213.
+DR   PDB; 1PKV; X-ray; 2.60 A; A/B=1-97.
+DR   PDBsum; 1HZE; -.
+DR   PDBsum; 1I18; -.
+DR   PDBsum; 1I8D; -.
+DR   PDBsum; 1PKV; -.
+DR   AlphaFoldDB; P0AFU8; -.
+DR   BMRB; P0AFU8; -.
+DR   SMR; P0AFU8; -.
+DR   BioGRID; 4261654; 49.
+DR   DIP; DIP-47865N; -.
+DR   IntAct; P0AFU8; 3.
+DR   STRING; 511145.b1662; -.
+DR   DrugBank; DB00140; Riboflavin.
+DR   SWISS-2DPAGE; P0AFU8; -.
+DR   jPOST; P0AFU8; -.
+DR   PaxDb; P0AFU8; -.
+DR   PRIDE; P0AFU8; -.
+DR   EnsemblBacteria; AAC74734; AAC74734; b1662.
+DR   EnsemblBacteria; BAA15429; BAA15429; BAA15429.
+DR   GeneID; 66674445; -.
+DR   GeneID; 945848; -.
+DR   KEGG; ecj:JW1654; -.
+DR   KEGG; eco:b1662; -.
+DR   PATRIC; fig|1411691.4.peg.595; -.
+DR   EchoBASE; EB1378; -.
+DR   eggNOG; COG0307; Bacteria.
+DR   HOGENOM; CLU_034388_0_1_6; -.
+DR   InParanoid; P0AFU8; -.
+DR   OMA; HILSGHV; -.
+DR   PhylomeDB; P0AFU8; -.
+DR   BioCyc; EcoCyc:RIBOFLAVIN-SYN-MONOMER; -.
+DR   BRENDA; 2.5.1.9; 2026.
+DR   SABIO-RK; P0AFU8; -.
+DR   UniPathway; UPA00275; UER00405.
+DR   EvolutionaryTrace; P0AFU8; -.
+DR   PRO; PR:P0AFU8; -.
+DR   Proteomes; UP000000318; Chromosome.
+DR   Proteomes; UP000000625; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IDA:EcoCyc.
+DR   GO; GO:0004746; F:riboflavin synthase activity; IDA:EcoCyc.
+DR   GO; GO:0009231; P:riboflavin biosynthetic process; IDA:EcoCyc.
+DR   CDD; cd00402; Riboflavin_synthase_like; 1.
+DR   Gene3D; 2.40.30.20; -; 2.
+DR   InterPro; IPR023366; ATP_synth_asu-like_sf.
+DR   InterPro; IPR001783; Lumazine-bd.
+DR   InterPro; IPR026017; Lumazine-bd_dom.
+DR   InterPro; IPR017938; Riboflavin_synthase-like_b-brl.
+DR   PANTHER; PTHR21098; PTHR21098; 1.
+DR   Pfam; PF00677; Lum_binding; 2.
+DR   PIRSF; PIRSF000498; Riboflavin_syn_A; 1.
+DR   SUPFAM; SSF63380; SSF63380; 2.
+DR   TIGRFAMs; TIGR00187; ribE; 1.
+DR   PROSITE; PS51177; LUMAZINE_BIND; 2.
+PE   1: Evidence at protein level;
+KW   3D-structure; Reference proteome; Repeat; Riboflavin biosynthesis;
+KW   Transferase.
+FT   CHAIN           1..213
+FT                   /note="Riboflavin synthase"
+FT                   /id="PRO_0000068166"
+FT   REPEAT          1..97
+FT                   /note="Lumazine-binding 1"
+FT   REPEAT          98..195
+FT                   /note="Lumazine-binding 2"
+FT   REGION          4..6
+FT                   /note="Lumazine 1 binding"
+FT                   /evidence="ECO:0000250|UniProtKB:Q2YN92,
+FT                   ECO:0000305|PubMed:12927541"
+FT   REGION          48..50
+FT                   /note="Lumazine 2 binding; shared with one trimeric
+FT                   partner"
+FT                   /evidence="ECO:0000250|UniProtKB:Q2YN92,
+FT                   ECO:0000305|PubMed:12927541"
+FT   REGION          62..67
+FT                   /note="Lumazine 2 binding; shared with one trimeric
+FT                   partner"
+FT                   /evidence="ECO:0000250|UniProtKB:Q2YN92,
+FT                   ECO:0000305|PubMed:12927541"
+FT   REGION          101..103
+FT                   /note="Lumazine 2 binding; shared with one trimeric
+FT                   partner"
+FT                   /evidence="ECO:0000250|UniProtKB:Q2YN92"
+FT   REGION          146..148
+FT                   /note="Lumazine 1 binding"
+FT                   /evidence="ECO:0000250|UniProtKB:Q2YN92"
+FT   REGION          160..165
+FT                   /note="Lumazine 1 binding"
+FT                   /evidence="ECO:0000250|UniProtKB:Q2YN92"
+FT   BINDING         137
+FT                   /note="Lumazine 2"
+FT                   /evidence="ECO:0000250|UniProtKB:Q2YN92"
+FT   STRAND          8..17
+FT                   /evidence="ECO:0007829|PDB:1I8D"
+FT   STRAND          19..27
+FT                   /evidence="ECO:0007829|PDB:1I8D"
+FT   HELIX           30..32
+FT                   /evidence="ECO:0007829|PDB:1I8D"
+FT   STRAND          41..44
+FT                   /evidence="ECO:0007829|PDB:1I8D"
+FT   STRAND          47..55
+FT                   /evidence="ECO:0007829|PDB:1I8D"
+FT   STRAND          58..64
+FT                   /evidence="ECO:0007829|PDB:1I8D"
+FT   HELIX           65..70
+FT                   /evidence="ECO:0007829|PDB:1I8D"
+FT   HELIX           72..75
+FT                   /evidence="ECO:0007829|PDB:1I8D"
+FT   STRAND          81..86
+FT                   /evidence="ECO:0007829|PDB:1I8D"
+FT   STRAND          105..115
+FT                   /evidence="ECO:0007829|PDB:1I8D"
+FT   STRAND          118..126
+FT                   /evidence="ECO:0007829|PDB:1I8D"
+FT   HELIX           128..133
+FT                   /evidence="ECO:0007829|PDB:1I8D"
+FT   STRAND          139..142
+FT                   /evidence="ECO:0007829|PDB:1I8D"
+FT   STRAND          145..148
+FT                   /evidence="ECO:0007829|PDB:1I8D"
+FT   STRAND          154..161
+FT                   /evidence="ECO:0007829|PDB:1I8D"
+FT   HELIX           163..168
+FT                   /evidence="ECO:0007829|PDB:1I8D"
+FT   HELIX           171..173
+FT                   /evidence="ECO:0007829|PDB:1I8D"
+FT   STRAND          179..184
+FT                   /evidence="ECO:0007829|PDB:1I8D"
+FT   HELIX           186..204
+FT                   /evidence="ECO:0007829|PDB:1I8D"
+SQ   SEQUENCE   213 AA;  23445 MW;  CD1C7E40E4AC88B6 CRC64;
+     MFTGIVQGTA KLVSIDEKPN FRTHVVELPD HMLDGLETGA SVAHNGCCLT VTEINGNHVS
+     FDLMKETLRI TNLGDLKVGD WVNVERAAKF SDEIGGHLMS GHIMTTAEVA KILTSENNRQ
+     IWFKVQDSQL MKYILYKGFI GIDGISLTVG EVTPTRFCVH LIPETLERTT LGKKKLGARV
+     NIEIDPQTQA VVDTVERVLA ARENAMNQPG TEA
+//
+ID   GLK_ECOLI               Reviewed;         321 AA.
+AC   P0A6V8; P46880; P78276;
+DT   29-MAR-2005, integrated into UniProtKB/Swiss-Prot.
+DT   29-MAR-2005, sequence version 1.
+DT   25-MAY-2022, entry version 124.
+DE   RecName: Full=Glucokinase {ECO:0000303|PubMed:9023215};
+DE            EC=2.7.1.2 {ECO:0000269|PubMed:9023215};
+DE   AltName: Full=Glucose kinase;
+GN   Name=glk {ECO:0000303|PubMed:9023215}; OrderedLocusNames=b2388, JW2385;
+OS   Escherichia coli (strain K12).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Escherichia.
+OX   NCBI_TaxID=83333;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], FUNCTION, CATALYTIC ACTIVITY,
+RP   BIOPHYSICOCHEMICAL PROPERTIES, SUBCELLULAR LOCATION, INDUCTION, AND
+RP   DISRUPTION PHENOTYPE.
+RC   STRAIN=K12 / MC4100 / ATCC 35695 / DSM 6574;
+RX   PubMed=9023215; DOI=10.1128/jb.179.4.1298-1306.1997;
+RA   Meyer D., Schneider-Fresenius C., Horlacher R., Peist R., Boos W.W.;
+RT   "Molecular characterization of glucokinase from Escherichia coli K-12.";
+RL   J. Bacteriol. 179:1298-1306(1997).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / W3110 / ATCC 27325 / DSM 5911;
+RX   PubMed=9205837; DOI=10.1093/dnares/4.2.91;
+RA   Yamamoto Y., Aiba H., Baba T., Hayashi K., Inada T., Isono K., Itoh T.,
+RA   Kimura S., Kitagawa M., Makino K., Miki T., Mitsuhashi N., Mizobuchi K.,
+RA   Mori H., Nakade S., Nakamura Y., Nashimoto H., Oshima T., Oyama S.,
+RA   Saito N., Sampei G., Satoh Y., Sivasundaram S., Tagami H., Takahashi H.,
+RA   Takeda J., Takemoto K., Uehara K., Wada C., Yamagata S., Horiuchi T.;
+RT   "Construction of a contiguous 874-kb sequence of the Escherichia coli-K12
+RT   genome corresponding to 50.0-68.8 min on the linkage map and analysis of
+RT   its sequence features.";
+RL   DNA Res. 4:91-113(1997).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / MG1655 / ATCC 47076;
+RX   PubMed=9278503; DOI=10.1126/science.277.5331.1453;
+RA   Blattner F.R., Plunkett G. III, Bloch C.A., Perna N.T., Burland V.,
+RA   Riley M., Collado-Vides J., Glasner J.D., Rode C.K., Mayhew G.F.,
+RA   Gregor J., Davis N.W., Kirkpatrick H.A., Goeden M.A., Rose D.J., Mau B.,
+RA   Shao Y.;
+RT   "The complete genome sequence of Escherichia coli K-12.";
+RL   Science 277:1453-1462(1997).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / W3110 / ATCC 27325 / DSM 5911;
+RX   PubMed=16738553; DOI=10.1038/msb4100049;
+RA   Hayashi K., Morooka N., Yamamoto Y., Fujita K., Isono K., Choi S.,
+RA   Ohtsubo E., Baba T., Wanner B.L., Mori H., Horiuchi T.;
+RT   "Highly accurate genome sequences of Escherichia coli K-12 strains MG1655
+RT   and W3110.";
+RL   Mol. Syst. Biol. 2:E1-E5(2006).
+CC   -!- FUNCTION: An ATP-dependent kinase that phosphorylates glucose to make
+CC       glucose-6-phosphate, not active on fructose, galactose or mannose. Not
+CC       highly important in wild-type E.coli as glucose is transported into the
+CC       cell by the PTS system as glucose 6-phosphate.
+CC       {ECO:0000269|PubMed:9023215}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + D-glucose = ADP + D-glucose 6-phosphate + H(+);
+CC         Xref=Rhea:RHEA:17825, ChEBI:CHEBI:4167, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:61548, ChEBI:CHEBI:456216; EC=2.7.1.2;
+CC         Evidence={ECO:0000269|PubMed:9023215};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:17826;
+CC         Evidence={ECO:0000269|PubMed:9023215};
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=0.78 mM for glucose {ECO:0000269|PubMed:9023215};
+CC         KM=3.76 mM for ATP {ECO:0000269|PubMed:9023215};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000269|PubMed:9023215}.
+CC   -!- INDUCTION: Constitutively expressed, weakly repressed by growth on
+CC       glucose, repression may be partially controlled by cra (fruR).
+CC       {ECO:0000269|PubMed:9023215}.
+CC   -!- DISRUPTION PHENOTYPE: No glucokinase activity, no growth phenotype in
+CC       an otherwise wild-type cell. {ECO:0000269|PubMed:9023215}.
+CC   -!- SIMILARITY: Belongs to the bacterial glucokinase family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; U22490; AAA64506.1; -; Genomic_DNA.
+DR   EMBL; U00096; AAC75447.1; -; Genomic_DNA.
+DR   EMBL; AP009048; BAA16258.1; -; Genomic_DNA.
+DR   PIR; A65013; A65013.
+DR   RefSeq; NP_416889.1; NC_000913.3.
+DR   RefSeq; WP_000170346.1; NZ_LN832404.1.
+DR   AlphaFoldDB; P0A6V8; -.
+DR   SMR; P0A6V8; -.
+DR   BioGRID; 4260563; 10.
+DR   IntAct; P0A6V8; 5.
+DR   STRING; 511145.b2388; -.
+DR   DrugBank; DB02379; Beta-D-Glucose.
+DR   jPOST; P0A6V8; -.
+DR   PaxDb; P0A6V8; -.
+DR   PRIDE; P0A6V8; -.
+DR   EnsemblBacteria; AAC75447; AAC75447; b2388.
+DR   EnsemblBacteria; BAA16258; BAA16258; BAA16258.
+DR   GeneID; 946858; -.
+DR   KEGG; ecj:JW2385; -.
+DR   KEGG; eco:b2388; -.
+DR   PATRIC; fig|1411691.4.peg.4340; -.
+DR   EchoBASE; EB2791; -.
+DR   eggNOG; COG0837; Bacteria.
+DR   HOGENOM; CLU_042582_1_0_6; -.
+DR   InParanoid; P0A6V8; -.
+DR   OMA; NNHWRLS; -.
+DR   PhylomeDB; P0A6V8; -.
+DR   BioCyc; EcoCyc:GLUCOKIN-MONOMER; -.
+DR   SABIO-RK; P0A6V8; -.
+DR   PRO; PR:P0A6V8; -.
+DR   Proteomes; UP000000318; Chromosome.
+DR   Proteomes; UP000000625; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IDA:EcoCyc.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0004340; F:glucokinase activity; IDA:EcoCyc.
+DR   GO; GO:0005536; F:glucose binding; IEA:InterPro.
+DR   GO; GO:0006096; P:glycolytic process; IBA:GO_Central.
+DR   HAMAP; MF_00524; Glucokinase; 1.
+DR   InterPro; IPR043129; ATPase_NBD.
+DR   InterPro; IPR003836; Glucokinase.
+DR   Pfam; PF02685; Glucokinase; 1.
+DR   SUPFAM; SSF53067; SSF53067; 1.
+DR   TIGRFAMs; TIGR00749; glk; 1.
+PE   1: Evidence at protein level;
+KW   ATP-binding; Cytoplasm; Glycolysis; Kinase; Nucleotide-binding;
+KW   Reference proteome; Transferase.
+FT   CHAIN           1..321
+FT                   /note="Glucokinase"
+FT                   /id="PRO_0000215124"
+FT   NP_BIND         8..13
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255"
+FT   CONFLICT        108
+FT                   /note="I -> N (in Ref. 1; AAA64506)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        188..189
+FT                   /note="RV -> AC (in Ref. 1; AAA64506)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        274
+FT                   /note="A -> G (in Ref. 1; AAA64506)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   321 AA;  34723 MW;  2D6CD956641A3823 CRC64;
+     MTKYALVGDV GGTNARLALC DIASGEISQA KTYSGLDYPS LEAVIRVYLE EHKVEVKDGC
+     IAIACPITGD WVAMTNHTWA FSIAEMKKNL GFSHLEIIND FTAVSMAIPM LKKEHLIQFG
+     GAEPVEGKPI AVYGAGTGLG VAHLVHVDKR WVSLPGEGGH VDFAPNSEEE AIILEILRAE
+     IGHVSAERVL SGPGLVNLYR AIVKADNRLP ENLKPKDITE RALADSCTDC RRALSLFCVI
+     MGRFGGNLAL NLGTFGGVFI AGGIVPRFLE FFKASGFRAA FEDKGRFKEY VHDIPVYLIV
+     HDNPGLLGSG AHLRQTLGHI L
+//
+ID   LTAE_ECOLI              Reviewed;         333 AA.
+AC   P75823;
+DT   01-NOV-1997, integrated into UniProtKB/Swiss-Prot.
+DT   01-FEB-1997, sequence version 1.
+DT   25-MAY-2022, entry version 158.
+DE   RecName: Full=Low specificity L-threonine aldolase;
+DE            Short=Low specificity L-TA;
+DE            EC=4.1.2.48;
+GN   Name=ltaE; Synonyms=ybjU; OrderedLocusNames=b0870, JW0854;
+OS   Escherichia coli (strain K12).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Escherichia.
+OX   NCBI_TaxID=83333;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], PROTEIN SEQUENCE OF N-TERMINUS,
+RP   CATALYTIC ACTIVITY, AND CHARACTERIZATION.
+RC   STRAIN=GS245, and K12 / ME9012;
+RX   PubMed=9692922; DOI=10.1046/j.1432-1327.1998.2550220.x;
+RA   Liu J.-Q., Dairi T., Itoh N., Kataoka M., Shimizu S., Yamada H.;
+RT   "Gene cloning, biochemical characterization and physiological role of a
+RT   thermostable low-specificity L-threonine aldolase from Escherichia coli.";
+RL   Eur. J. Biochem. 255:220-226(1998).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / W3110 / ATCC 27325 / DSM 5911;
+RX   PubMed=8905232; DOI=10.1093/dnares/3.3.137;
+RA   Oshima T., Aiba H., Baba T., Fujita K., Hayashi K., Honjo A., Ikemoto K.,
+RA   Inada T., Itoh T., Kajihara M., Kanai K., Kashimoto K., Kimura S.,
+RA   Kitagawa M., Makino K., Masuda S., Miki T., Mizobuchi K., Mori H.,
+RA   Motomura K., Nakamura Y., Nashimoto H., Nishio Y., Saito N., Sampei G.,
+RA   Seki Y., Tagami H., Takemoto K., Wada C., Yamamoto Y., Yano M.,
+RA   Horiuchi T.;
+RT   "A 718-kb DNA sequence of the Escherichia coli K-12 genome corresponding to
+RT   the 12.7-28.0 min region on the linkage map.";
+RL   DNA Res. 3:137-155(1996).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / MG1655 / ATCC 47076;
+RX   PubMed=9278503; DOI=10.1126/science.277.5331.1453;
+RA   Blattner F.R., Plunkett G. III, Bloch C.A., Perna N.T., Burland V.,
+RA   Riley M., Collado-Vides J., Glasner J.D., Rode C.K., Mayhew G.F.,
+RA   Gregor J., Davis N.W., Kirkpatrick H.A., Goeden M.A., Rose D.J., Mau B.,
+RA   Shao Y.;
+RT   "The complete genome sequence of Escherichia coli K-12.";
+RL   Science 277:1453-1462(1997).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / W3110 / ATCC 27325 / DSM 5911;
+RX   PubMed=16738553; DOI=10.1038/msb4100049;
+RA   Hayashi K., Morooka N., Yamamoto Y., Fujita K., Isono K., Choi S.,
+RA   Ohtsubo E., Baba T., Wanner B.L., Mori H., Horiuchi T.;
+RT   "Highly accurate genome sequences of Escherichia coli K-12 strains MG1655
+RT   and W3110.";
+RL   Mol. Syst. Biol. 2:E1-E5(2006).
+CC   -!- FUNCTION: Catalyzes the cleavage of L-allo-threonine and L-threonine to
+CC       glycine and acetaldehyde. L-threo-phenylserine and L-erythro-
+CC       phenylserine are also good substrates.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-threonine = acetaldehyde + glycine; Xref=Rhea:RHEA:19625,
+CC         ChEBI:CHEBI:15343, ChEBI:CHEBI:57305, ChEBI:CHEBI:57926; EC=4.1.2.48;
+CC         Evidence={ECO:0000269|PubMed:9692922};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-allo-threonine = acetaldehyde + glycine;
+CC         Xref=Rhea:RHEA:26209, ChEBI:CHEBI:15343, ChEBI:CHEBI:57305,
+CC         ChEBI:CHEBI:58585; EC=4.1.2.48;
+CC         Evidence={ECO:0000269|PubMed:9692922};
+CC   -!- COFACTOR:
+CC       Name=pyridoxal 5'-phosphate; Xref=ChEBI:CHEBI:597326;
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       pH dependence:
+CC         Optimum pH is 8.5-9.0.;
+CC       Temperature dependence:
+CC         Optimum temperature is 65-70 degrees Celsius.;
+CC   -!- SUBUNIT: Homotetramer. {ECO:0000305}.
+CC   -!- INTERACTION:
+CC       P75823; P75823: ltaE; NbExp=2; IntAct=EBI-1120660, EBI-1120660;
+CC   -!- SIMILARITY: Belongs to the threonine aldolase family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AB005050; BAA20882.1; -; Genomic_DNA.
+DR   EMBL; U00096; AAC73957.1; -; Genomic_DNA.
+DR   EMBL; AP009048; BAA35584.1; -; Genomic_DNA.
+DR   PIR; F64825; F64825.
+DR   RefSeq; NP_415391.1; NC_000913.3.
+DR   RefSeq; WP_000566376.1; NZ_SSZK01000002.1.
+DR   PDB; 3WLX; X-ray; 2.51 A; A/B=1-333.
+DR   PDBsum; 3WLX; -.
+DR   AlphaFoldDB; P75823; -.
+DR   SMR; P75823; -.
+DR   BioGRID; 4262099; 22.
+DR   IntAct; P75823; 1.
+DR   MINT; P75823; -.
+DR   STRING; 511145.b0870; -.
+DR   jPOST; P75823; -.
+DR   PaxDb; P75823; -.
+DR   PRIDE; P75823; -.
+DR   EnsemblBacteria; AAC73957; AAC73957; b0870.
+DR   EnsemblBacteria; BAA35584; BAA35584; BAA35584.
+DR   GeneID; 944955; -.
+DR   KEGG; ecj:JW0854; -.
+DR   KEGG; eco:b0870; -.
+DR   PATRIC; fig|1411691.4.peg.1407; -.
+DR   EchoBASE; EB3454; -.
+DR   eggNOG; COG2008; Bacteria.
+DR   HOGENOM; CLU_029381_0_3_6; -.
+DR   InParanoid; P75823; -.
+DR   OMA; NKGGGAC; -.
+DR   PhylomeDB; P75823; -.
+DR   BioCyc; EcoCyc:LTAA-MONOMER; -.
+DR   BRENDA; 4.1.2.48; 2026.
+DR   PRO; PR:P75823; -.
+DR   Proteomes; UP000000318; Chromosome.
+DR   Proteomes; UP000000625; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IDA:EcoCyc.
+DR   GO; GO:0042802; F:identical protein binding; IPI:IntAct.
+DR   GO; GO:0008732; F:L-allo-threonine aldolase activity; IDA:EcoCyc.
+DR   GO; GO:0050179; F:phenylserine aldolase activity; IDA:EcoCyc.
+DR   GO; GO:0030170; F:pyridoxal phosphate binding; IDA:EcoCyc.
+DR   GO; GO:0006545; P:glycine biosynthetic process; IBA:GO_Central.
+DR   GO; GO:0006567; P:threonine catabolic process; IBA:GO_Central.
+DR   Gene3D; 3.40.640.10; -; 1.
+DR   Gene3D; 3.90.1150.10; -; 1.
+DR   InterPro; IPR001597; ArAA_b-elim_lyase/Thr_aldolase.
+DR   InterPro; IPR015424; PyrdxlP-dep_Trfase.
+DR   InterPro; IPR015421; PyrdxlP-dep_Trfase_major.
+DR   InterPro; IPR015422; PyrdxlP-dep_Trfase_small.
+DR   InterPro; IPR023603; Threonine_aldolase.
+DR   PANTHER; PTHR48097:SF9; PTHR48097:SF9; 1.
+DR   Pfam; PF01212; Beta_elim_lyase; 1.
+DR   PIRSF; PIRSF017617; Thr_aldolase; 1.
+DR   SUPFAM; SSF53383; SSF53383; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Direct protein sequencing; Lyase; Pyridoxal phosphate;
+KW   Reference proteome.
+FT   CHAIN           1..333
+FT                   /note="Low specificity L-threonine aldolase"
+FT                   /id="PRO_0000121575"
+FT   MOD_RES         197
+FT                   /note="N6-(pyridoxal phosphate)lysine"
+FT                   /evidence="ECO:0000250"
+FT   HELIX           7..9
+FT                   /evidence="ECO:0007829|PDB:3WLX"
+FT   HELIX           14..22
+FT                   /evidence="ECO:0007829|PDB:3WLX"
+FT   TURN            28..31
+FT                   /evidence="ECO:0007829|PDB:3WLX"
+FT   HELIX           34..46
+FT                   /evidence="ECO:0007829|PDB:3WLX"
+FT   STRAND          50..56
+FT                   /evidence="ECO:0007829|PDB:3WLX"
+FT   HELIX           58..69
+FT                   /evidence="ECO:0007829|PDB:3WLX"
+FT   STRAND          74..79
+FT                   /evidence="ECO:0007829|PDB:3WLX"
+FT   HELIX           83..86
+FT                   /evidence="ECO:0007829|PDB:3WLX"
+FT   HELIX           91..94
+FT                   /evidence="ECO:0007829|PDB:3WLX"
+FT   STRAND          99..103
+FT                   /evidence="ECO:0007829|PDB:3WLX"
+FT   HELIX           113..119
+FT                   /evidence="ECO:0007829|PDB:3WLX"
+FT   STRAND          129..139
+FT                   /evidence="ECO:0007829|PDB:3WLX"
+FT   HELIX           146..158
+FT                   /evidence="ECO:0007829|PDB:3WLX"
+FT   STRAND          162..166
+FT                   /evidence="ECO:0007829|PDB:3WLX"
+FT   HELIX           170..177
+FT                   /evidence="ECO:0007829|PDB:3WLX"
+FT   HELIX           182..185
+FT                   /evidence="ECO:0007829|PDB:3WLX"
+FT   STRAND          189..194
+FT                   /evidence="ECO:0007829|PDB:3WLX"
+FT   STRAND          205..209
+FT                   /evidence="ECO:0007829|PDB:3WLX"
+FT   HELIX           211..224
+FT                   /evidence="ECO:0007829|PDB:3WLX"
+FT   HELIX           232..244
+FT                   /evidence="ECO:0007829|PDB:3WLX"
+FT   HELIX           249..265
+FT                   /evidence="ECO:0007829|PDB:3WLX"
+FT   STRAND          270..274
+FT                   /evidence="ECO:0007829|PDB:3WLX"
+FT   STRAND          277..281
+FT                   /evidence="ECO:0007829|PDB:3WLX"
+FT   HELIX           284..295
+FT                   /evidence="ECO:0007829|PDB:3WLX"
+FT   TURN            296..298
+FT                   /evidence="ECO:0007829|PDB:3WLX"
+FT   STRAND          304..310
+FT                   /evidence="ECO:0007829|PDB:3WLX"
+FT   HELIX           317..330
+FT                   /evidence="ECO:0007829|PDB:3WLX"
+SQ   SEQUENCE   333 AA;  36495 MW;  446C680A620083D9 CRC64;
+     MIDLRSDTVT RPSRAMLEAM MAAPVGDDVY GDDPTVNALQ DYAAELSGKE AAIFLPTGTQ
+     ANLVALLSHC ERGEEYIVGQ AAHNYLFEAG GAAVLGSIQP QPIDAAADGT LPLDKVAMKI
+     KPDDIHFART KLLSLENTHN GKVLPREYLK EAWEFTRERN LALHVDGARI FNAVVAYGCE
+     LKEITQYCDS FTICLSKGLG TPVGSLLVGN RDYIKRAIRW RKMTGGGMRQ SGILAAAGIY
+     ALKNNVARLQ EDHDNAAWMA EQLREAGADV MRQDTNMLFV RVGEENAAAL GEYMKARNVL
+     INASPIVRLV THLDVSREQL AEVAAHWRAF LAR
+//
+ID   DPPA_ECOLI              Reviewed;         535 AA.
+AC   P23847; Q2M7K6;
+DT   01-NOV-1991, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1991, sequence version 1.
+DT   25-MAY-2022, entry version 176.
+DE   RecName: Full=Dipeptide-binding protein {ECO:0000303|PubMed:1702779, ECO:0000303|PubMed:1956284};
+DE            Short=DBP {ECO:0000303|PubMed:1956284};
+DE   AltName: Full=Periplasmic dipeptide transport protein {ECO:0000303|PubMed:1702779};
+DE   Flags: Precursor;
+GN   Name=dppA {ECO:0000303|PubMed:1702779, ECO:0000303|PubMed:1956284};
+GN   OrderedLocusNames=b3544, JW3513;
+OS   Escherichia coli (strain K12).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Escherichia.
+OX   NCBI_TaxID=83333;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], FUNCTION, SUBCELLULAR LOCATION,
+RP   INDUCTION, AND DISRUPTION PHENOTYPE.
+RC   STRAIN=K12;
+RX   PubMed=1702779; DOI=10.1128/jb.173.1.234-244.1991;
+RA   Olson E.R., Dunyak D.S., Jurss L.M., Poorman R.A.;
+RT   "Identification and characterization of dppA, an Escherichia coli gene
+RT   encoding a periplasmic dipeptide transport protein.";
+RL   J. Bacteriol. 173:234-244(1991).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], AND PROTEIN SEQUENCE OF 29-50.
+RC   STRAIN=K12;
+RX   PubMed=1956284; DOI=10.1111/j.1365-2958.1991.tb01876.x;
+RA   Abouhamad W.N., Manson M., Gibson M.M., Higgins C.F.;
+RT   "Peptide transport and chemotaxis in Escherichia coli and Salmonella
+RT   typhimurium: characterization of the dipeptide permease (Dpp) and the
+RT   dipeptide-binding protein.";
+RL   Mol. Microbiol. 5:1035-1047(1991).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], FUNCTION, AND SUBUNIT.
+RC   STRAIN=K12 / MM500;
+RX   PubMed=7536291; DOI=10.1111/j.1365-2958.1994.tb01340.x;
+RA   Abouhamad W.N., Manson M.D.;
+RT   "The dipeptide permease of Escherichia coli closely resembles other
+RT   bacterial transport systems and shows growth-phase-dependent expression.";
+RL   Mol. Microbiol. 14:1077-1092(1994).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / MG1655 / ATCC 47076;
+RX   PubMed=8041620; DOI=10.1093/nar/22.13.2576;
+RA   Sofia H.J., Burland V., Daniels D.L., Plunkett G. III, Blattner F.R.;
+RT   "Analysis of the Escherichia coli genome. V. DNA sequence of the region
+RT   from 76.0 to 81.5 minutes.";
+RL   Nucleic Acids Res. 22:2576-2586(1994).
+RN   [5]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / MG1655 / ATCC 47076;
+RX   PubMed=9278503; DOI=10.1126/science.277.5331.1453;
+RA   Blattner F.R., Plunkett G. III, Bloch C.A., Perna N.T., Burland V.,
+RA   Riley M., Collado-Vides J., Glasner J.D., Rode C.K., Mayhew G.F.,
+RA   Gregor J., Davis N.W., Kirkpatrick H.A., Goeden M.A., Rose D.J., Mau B.,
+RA   Shao Y.;
+RT   "The complete genome sequence of Escherichia coli K-12.";
+RL   Science 277:1453-1462(1997).
+RN   [6]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / W3110 / ATCC 27325 / DSM 5911;
+RX   PubMed=16738553; DOI=10.1038/msb4100049;
+RA   Hayashi K., Morooka N., Yamamoto Y., Fujita K., Isono K., Choi S.,
+RA   Ohtsubo E., Baba T., Wanner B.L., Mori H., Horiuchi T.;
+RT   "Highly accurate genome sequences of Escherichia coli K-12 strains MG1655
+RT   and W3110.";
+RL   Mol. Syst. Biol. 2:E1-E5(2006).
+RN   [7]
+RP   PROTEIN SEQUENCE OF 29-61, FUNCTION, BINDING SPECIFICITY, AND DOMAIN.
+RC   STRAIN=K12;
+RX   PubMed=10537211; DOI=10.1099/00221287-145-10-2891;
+RA   Smith M.W., Tyreman D.R., Payne G.M., Marshall N.J., Payne J.W.;
+RT   "Substrate specificity of the periplasmic dipeptide-binding protein from
+RT   Escherichia coli: experimental basis for the design of peptide prodrugs.";
+RL   Microbiology 145:2891-2901(1999).
+RN   [8]
+RP   PROTEIN SEQUENCE OF 29-40.
+RC   STRAIN=K12 / EMG2;
+RX   PubMed=9298646; DOI=10.1002/elps.1150180807;
+RA   Link A.J., Robison K., Church G.M.;
+RT   "Comparing the predicted and observed properties of proteins encoded in the
+RT   genome of Escherichia coli K-12.";
+RL   Electrophoresis 18:1259-1313(1997).
+RN   [9]
+RP   PROTEIN SEQUENCE OF 29-32.
+RC   STRAIN=K12 / W3110 / ATCC 27325 / DSM 5911;
+RX   PubMed=9600841; DOI=10.1006/jmbi.1998.1726;
+RA   Wilkins M.R., Gasteiger E., Tonella L., Ou K., Tyler M., Sanchez J.-C.,
+RA   Gooley A.A., Walsh B.J., Bairoch A., Appel R.D., Williams K.L.,
+RA   Hochstrasser D.F.;
+RT   "Protein identification with N and C-terminal sequence tags in proteome
+RT   projects.";
+RL   J. Mol. Biol. 278:599-608(1998).
+RN   [10]
+RP   FUNCTION.
+RX   PubMed=3520334; DOI=10.1038/321253a0;
+RA   Manson M.D., Blank V., Brade G., Higgins C.F.;
+RT   "Peptide chemotaxis in E. coli involves the Tap signal transducer and the
+RT   dipeptide permease.";
+RL   Nature 321:253-256(1986).
+RN   [11]
+RP   FUNCTION IN 5-AMINOLEVULINIC ACID TRANSPORT.
+RX   PubMed=8444807; DOI=10.1128/jb.175.5.1452-1456.1993;
+RA   Verkamp E., Backman V.M., Bjoernsson J.M., Soell D., Eggertsson G.;
+RT   "The periplasmic dipeptide permease system transports 5-aminolevulinic acid
+RT   in Escherichia coli.";
+RL   J. Bacteriol. 175:1452-1456(1993).
+RN   [12]
+RP   DISULFIDE BONDS.
+RA   Dunten P.;
+RL   Submitted (JUN-1995) to UniProtKB.
+RN   [13]
+RP   IDENTIFICATION BY 2D-GEL.
+RX   PubMed=9298644; DOI=10.1002/elps.1150180805;
+RA   VanBogelen R.A., Abshire K.Z., Moldover B., Olson E.R., Neidhardt F.C.;
+RT   "Escherichia coli proteome analysis using the gene-protein database.";
+RL   Electrophoresis 18:1243-1251(1997).
+RN   [14]
+RP   FUNCTION IN HEME TRANSPORT, ACTIVITY REGULATION, AND DISRUPTION PHENOTYPE.
+RX   PubMed=16905647; DOI=10.1073/pnas.0605440103;
+RA   Letoffe S., Delepelaire P., Wandersman C.;
+RT   "The housekeeping dipeptide permease is the Escherichia coli heme
+RT   transporter and functions with two optional peptide binding proteins.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 103:12891-12896(2006).
+RN   [15] {ECO:0007744|PDB:1DPE}
+RP   X-RAY CRYSTALLOGRAPHY (2.0 ANGSTROMS) OF 29-535, AND DOMAIN.
+RX   PubMed=8527431; DOI=10.1021/bi00051a006;
+RA   Nickitenko A.V., Trakhanov S., Quiocho F.A.;
+RT   "2-A resolution structure of DppA, a periplasmic dipeptide
+RT   transport/chemosensory receptor.";
+RL   Biochemistry 34:16585-16595(1995).
+RN   [16] {ECO:0007744|PDB:1DPP}
+RP   X-RAY CRYSTALLOGRAPHY (3.2 ANGSTROMS) OF 29-535 IN COMPLEX WITH DIPEPTIDE
+RP   GLY-LEU, FUNCTION, AND DOMAIN.
+RX   PubMed=8563629; DOI=10.1002/pro.5560041110;
+RA   Dunten P., Mowbray S.L.;
+RT   "Crystal structure of the dipeptide binding protein from Escherichia coli
+RT   involved in active transport and chemotaxis.";
+RL   Protein Sci. 4:2327-2334(1995).
+CC   -!- FUNCTION: Part of the ABC transporter DppABCDF involved in dipeptide
+CC       transport (PubMed:1702779, PubMed:7536291, PubMed:10537211). Binds
+CC       dipeptides and accepts a wide range of side chains, including small
+CC       neutral, bulky hydrophobic, and positively and negatively charged
+CC       groups (PubMed:10537211). Tripeptides are poor substrates
+CC       (PubMed:10537211). DppA alone controls the specificity of the Dpp
+CC       transporter (PubMed:10537211). In addition, plays a role in chemotaxis
+CC       toward peptides via interaction with the chemotaxis protein Tap
+CC       (PubMed:3520334, PubMed:8563629). {ECO:0000269|PubMed:10537211,
+CC       ECO:0000269|PubMed:1702779, ECO:0000269|PubMed:3520334,
+CC       ECO:0000269|PubMed:7536291, ECO:0000269|PubMed:8563629}.
+CC   -!- FUNCTION: Binds heme. When a foreign outer membrane heme receptor is
+CC       expressed in E.coli, DppABCDF can also transport heme and its
+CC       precursor, 5-aminolevulinic acid (ALA), from the periplasm into the
+CC       cytoplasm. {ECO:0000269|PubMed:16905647, ECO:0000269|PubMed:8444807}.
+CC   -!- ACTIVITY REGULATION: Heme binding is inhibited by dipeptide.
+CC       {ECO:0000269|PubMed:16905647}.
+CC   -!- SUBUNIT: The complex is composed of two ATP-binding proteins (DppD and
+CC       DppF), two transmembrane proteins (DppB and DppC) and a solute-binding
+CC       protein (DppA). {ECO:0000269|PubMed:7536291}.
+CC   -!- SUBCELLULAR LOCATION: Periplasm {ECO:0000269|PubMed:1702779}.
+CC   -!- INDUCTION: Expression is repressed by the presence of casamino acids.
+CC       {ECO:0000269|PubMed:1702779}.
+CC   -!- DOMAIN: Consists of two distinct domains (I and II) connected by two
+CC       strands that presumably function as a hinge (PubMed:8527431,
+CC       PubMed:8563629). Undergoes conformational change upon substrate binding
+CC       (PubMed:10537211). {ECO:0000269|PubMed:10537211,
+CC       ECO:0000269|PubMed:8527431, ECO:0000269|PubMed:8563629}.
+CC   -!- DISRUPTION PHENOTYPE: Inactivation of the gene results in the inability
+CC       of a proline auxotroph to utilize Pro-Gly as a proline source
+CC       (PubMed:1702779). Inactivation of the gene has no effect on iron-heme
+CC       utilization, but the double mppA dppA mutant is unable to use heme as
+CC       iron source (PubMed:16905647). {ECO:0000269|PubMed:16905647,
+CC       ECO:0000269|PubMed:1702779}.
+CC   -!- SIMILARITY: Belongs to the bacterial solute-binding protein 5 family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; M35045; AAA23707.1; -; Genomic_DNA.
+DR   EMBL; X58051; CAA41090.1; -; Genomic_DNA.
+DR   EMBL; L08399; AAA23702.1; -; Genomic_DNA.
+DR   EMBL; U00039; AAB18522.1; -; Genomic_DNA.
+DR   EMBL; U00096; AAC76569.1; -; Genomic_DNA.
+DR   EMBL; AP009048; BAE77750.1; -; Genomic_DNA.
+DR   PIR; A39194; A39194.
+DR   RefSeq; NP_418001.1; NC_000913.3.
+DR   RefSeq; WP_001222883.1; NZ_STEB01000018.1.
+DR   PDB; 1DPE; X-ray; 2.00 A; A=29-535.
+DR   PDB; 1DPP; X-ray; 3.20 A; A/C/E/G=29-535.
+DR   PDBsum; 1DPE; -.
+DR   PDBsum; 1DPP; -.
+DR   AlphaFoldDB; P23847; -.
+DR   SMR; P23847; -.
+DR   BioGRID; 4259528; 228.
+DR   ComplexPortal; CPX-4345; Heme/dipeptide ABC transporter complex, dppA variant.
+DR   DIP; DIP-9467N; -.
+DR   IntAct; P23847; 6.
+DR   STRING; 511145.b3544; -.
+DR   SWISS-2DPAGE; P23847; -.
+DR   jPOST; P23847; -.
+DR   PaxDb; P23847; -.
+DR   PRIDE; P23847; -.
+DR   EnsemblBacteria; AAC76569; AAC76569; b3544.
+DR   EnsemblBacteria; BAE77750; BAE77750; BAE77750.
+DR   GeneID; 66672568; -.
+DR   GeneID; 948062; -.
+DR   KEGG; ecj:JW3513; -.
+DR   KEGG; eco:b3544; -.
+DR   PATRIC; fig|1411691.4.peg.3170; -.
+DR   EchoBASE; EB0244; -.
+DR   eggNOG; COG0747; Bacteria.
+DR   HOGENOM; CLU_017028_7_0_6; -.
+DR   InParanoid; P23847; -.
+DR   OMA; YIAYNVM; -.
+DR   PhylomeDB; P23847; -.
+DR   BioCyc; EcoCyc:DPPA-MONOMER; -.
+DR   EvolutionaryTrace; P23847; -.
+DR   PRO; PR:P23847; -.
+DR   Proteomes; UP000000318; Chromosome.
+DR   Proteomes; UP000000625; Chromosome.
+DR   GO; GO:0055052; C:ATP-binding cassette (ABC) transporter complex, substrate-binding subunit-containing; IC:ComplexPortal.
+DR   GO; GO:0016020; C:membrane; IC:ComplexPortal.
+DR   GO; GO:0030288; C:outer membrane-bounded periplasmic space; IDA:EcoCyc.
+DR   GO; GO:0071916; F:dipeptide transmembrane transporter activity; IMP:EcoCyc.
+DR   GO; GO:0020037; F:heme binding; IPI:EcoCyc.
+DR   GO; GO:0042277; F:peptide binding; IDA:EcoCyc.
+DR   GO; GO:1904680; F:peptide transmembrane transporter activity; IBA:GO_Central.
+DR   GO; GO:0061077; P:chaperone-mediated protein folding; IDA:EcoCyc.
+DR   GO; GO:0006935; P:chemotaxis; IEA:UniProtKB-KW.
+DR   GO; GO:0042938; P:dipeptide transport; IMP:EcoCyc.
+DR   GO; GO:0035351; P:heme transmembrane transport; IC:ComplexPortal.
+DR   GO; GO:0015833; P:peptide transport; IBA:GO_Central.
+DR   GO; GO:0015031; P:protein transport; IEA:UniProtKB-KW.
+DR   InterPro; IPR030678; Peptide/Ni-bd.
+DR   InterPro; IPR039424; SBP_5.
+DR   InterPro; IPR023765; SBP_5_CS.
+DR   InterPro; IPR000914; SBP_5_dom.
+DR   PANTHER; PTHR30290; PTHR30290; 1.
+DR   Pfam; PF00496; SBP_bac_5; 1.
+DR   PIRSF; PIRSF002741; MppA; 1.
+DR   PROSITE; PS01040; SBP_BACTERIAL_5; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Chemotaxis; Direct protein sequencing; Disulfide bond;
+KW   Peptide transport; Periplasm; Protein transport; Reference proteome;
+KW   Signal; Transport.
+FT   SIGNAL          1..28
+FT                   /evidence="ECO:0000269|PubMed:1956284,
+FT                   ECO:0000269|PubMed:9298646, ECO:0000269|PubMed:9600841"
+FT   CHAIN           29..535
+FT                   /note="Dipeptide-binding protein"
+FT                   /id="PRO_0000031789"
+FT   REGION          48..50
+FT                   /note="Dipeptide binding"
+FT                   /evidence="ECO:0000269|PubMed:8563629,
+FT                   ECO:0007744|PDB:1DPP"
+FT   REGION          383..385
+FT                   /note="Dipeptide binding"
+FT                   /evidence="ECO:0000269|PubMed:8563629,
+FT                   ECO:0007744|PDB:1DPP"
+FT   REGION          433..436
+FT                   /note="Dipeptide binding"
+FT                   /evidence="ECO:0000269|PubMed:8563629,
+FT                   ECO:0007744|PDB:1DPP"
+FT   DISULFID        34..262
+FT                   /evidence="ECO:0000269|Ref.12"
+FT   DISULFID        450..463
+FT                   /evidence="ECO:0000269|Ref.12"
+FT   STRAND          30..37
+FT                   /evidence="ECO:0007829|PDB:1DPE"
+FT   HELIX           44..46
+FT                   /evidence="ECO:0007829|PDB:1DPE"
+FT   HELIX           50..55
+FT                   /evidence="ECO:0007829|PDB:1DPE"
+FT   HELIX           57..60
+FT                   /evidence="ECO:0007829|PDB:1DPE"
+FT   STRAND          64..67
+FT                   /evidence="ECO:0007829|PDB:1DPE"
+FT   STRAND          74..84
+FT                   /evidence="ECO:0007829|PDB:1DPE"
+FT   STRAND          90..95
+FT                   /evidence="ECO:0007829|PDB:1DPE"
+FT   HELIX           115..126
+FT                   /evidence="ECO:0007829|PDB:1DPE"
+FT   TURN            131..134
+FT                   /evidence="ECO:0007829|PDB:1DPE"
+FT   HELIX           135..137
+FT                   /evidence="ECO:0007829|PDB:1DPE"
+FT   HELIX           141..145
+FT                   /evidence="ECO:0007829|PDB:1DPE"
+FT   HELIX           148..151
+FT                   /evidence="ECO:0007829|PDB:1DPE"
+FT   STRAND          152..159
+FT                   /evidence="ECO:0007829|PDB:1DPE"
+FT   STRAND          162..169
+FT                   /evidence="ECO:0007829|PDB:1DPE"
+FT   HELIX           174..177
+FT                   /evidence="ECO:0007829|PDB:1DPE"
+FT   HELIX           181..183
+FT                   /evidence="ECO:0007829|PDB:1DPE"
+FT   HELIX           188..196
+FT                   /evidence="ECO:0007829|PDB:1DPE"
+FT   HELIX           202..205
+FT                   /evidence="ECO:0007829|PDB:1DPE"
+FT   STRAND          210..219
+FT                   /evidence="ECO:0007829|PDB:1DPE"
+FT   TURN            220..222
+FT                   /evidence="ECO:0007829|PDB:1DPE"
+FT   STRAND          223..228
+FT                   /evidence="ECO:0007829|PDB:1DPE"
+FT   STRAND          240..246
+FT                   /evidence="ECO:0007829|PDB:1DPE"
+FT   HELIX           250..258
+FT                   /evidence="ECO:0007829|PDB:1DPE"
+FT   HELIX           270..272
+FT                   /evidence="ECO:0007829|PDB:1DPE"
+FT   HELIX           273..278
+FT                   /evidence="ECO:0007829|PDB:1DPE"
+FT   STRAND          282..288
+FT                   /evidence="ECO:0007829|PDB:1DPE"
+FT   STRAND          290..297
+FT                   /evidence="ECO:0007829|PDB:1DPE"
+FT   TURN            302..305
+FT                   /evidence="ECO:0007829|PDB:1DPE"
+FT   HELIX           307..315
+FT                   /evidence="ECO:0007829|PDB:1DPE"
+FT   HELIX           319..327
+FT                   /evidence="ECO:0007829|PDB:1DPE"
+FT   STRAND          330..333
+FT                   /evidence="ECO:0007829|PDB:1DPE"
+FT   STRAND          335..338
+FT                   /evidence="ECO:0007829|PDB:1DPE"
+FT   HELIX           356..365
+FT                   /evidence="ECO:0007829|PDB:1DPE"
+FT   STRAND          372..377
+FT                   /evidence="ECO:0007829|PDB:1DPE"
+FT   HELIX           389..401
+FT                   /evidence="ECO:0007829|PDB:1DPE"
+FT   TURN            402..404
+FT                   /evidence="ECO:0007829|PDB:1DPE"
+FT   STRAND          405..410
+FT                   /evidence="ECO:0007829|PDB:1DPE"
+FT   HELIX           414..422
+FT                   /evidence="ECO:0007829|PDB:1DPE"
+FT   STRAND          427..434
+FT                   /evidence="ECO:0007829|PDB:1DPE"
+FT   STRAND          436..438
+FT                   /evidence="ECO:0007829|PDB:1DPE"
+FT   HELIX           441..448
+FT                   /evidence="ECO:0007829|PDB:1DPE"
+FT   HELIX           450..455
+FT                   /evidence="ECO:0007829|PDB:1DPE"
+FT   HELIX           465..476
+FT                   /evidence="ECO:0007829|PDB:1DPE"
+FT   HELIX           480..497
+FT                   /evidence="ECO:0007829|PDB:1DPE"
+FT   STRAND          499..513
+FT                   /evidence="ECO:0007829|PDB:1DPE"
+FT   STRAND          516..518
+FT                   /evidence="ECO:0007829|PDB:1DPE"
+SQ   SEQUENCE   535 AA;  60294 MW;  3F7C4756EEA8C2F0 CRC64;
+     MRISLKKSGM LKLGLSLVAM TVAASVQAKT LVYCSEGSPE GFNPQLFTSG TTYDASSVPL
+     YNRLVEFKIG TTEVIPGLAE KWEVSEDGKT YTFHLRKGVK WHDNKEFKPT RELNADDVVF
+     SFDRQKNAQN PYHKVSGGSY EYFEGMGLPE LISEVKKVDD NTVQFVLTRP EAPFLADLAM
+     DFASILSKEY ADAMMKAGTP EKLDLNPIGT GPFQLQQYQK DSRIRYKAFD GYWGTKPQID
+     TLVFSITPDA SVRYAKLQKN ECQVMPYPNP ADIARMKQDK SINLMEMPGL NVGYLSYNVQ
+     KKPLDDVKVR QALTYAVNKD AIIKAVYQGA GVSAKNLIPP TMWGYNDDVQ DYTYDPEKAK
+     ALLKEAGLEK GFSIDLWAMP VQRPYNPNAR RMAEMIQADW AKVGVQAKIV TYEWGEYLKR
+     AKDGEHQTVM MGWTGDNGDP DNFFATLFSC AASEQGSNYS KWCYKPFEDL IQPARATDDH
+     NKRVELYKQA QVVMHDQAPA LIIAHSTVFE PVRKEVKGYV VDPLGKHHFE NVSIE
+//
+ID   CCMC_ECOLI              Reviewed;         245 AA.
+AC   P0ABM1; P33929; Q2MAP4;
+DT   08-NOV-2005, integrated into UniProtKB/Swiss-Prot.
+DT   08-NOV-2005, sequence version 1.
+DT   25-MAY-2022, entry version 116.
+DE   RecName: Full=Heme exporter protein C;
+DE   AltName: Full=Cytochrome c-type biogenesis protein CcmC;
+GN   Name=ccmC; Synonyms=yejT, yejU; OrderedLocusNames=b2199, JW2187;
+OS   Escherichia coli (strain K12).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Escherichia.
+OX   NCBI_TaxID=83333;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=K12 / BHB2600;
+RA   Richterich P., Lakey N., Gryan G., Jaehn L., Mintz L., Robison K.,
+RA   Church G.M.;
+RL   Submitted (OCT-1993) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   SEQUENCE REVISION, CHARACTERIZATION, AND GENE NAME.
+RX   PubMed=7635817; DOI=10.1128/jb.177.15.4321-4326.1995;
+RA   Thoeny-Meyer L., Fischer F., Kunzler P., Ritz D., Hennecke H.;
+RT   "Escherichia coli genes required for cytochrome c maturation.";
+RL   J. Bacteriol. 177:4321-4326(1995).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / MG1655 / ATCC 47076;
+RX   PubMed=9278503; DOI=10.1126/science.277.5331.1453;
+RA   Blattner F.R., Plunkett G. III, Bloch C.A., Perna N.T., Burland V.,
+RA   Riley M., Collado-Vides J., Glasner J.D., Rode C.K., Mayhew G.F.,
+RA   Gregor J., Davis N.W., Kirkpatrick H.A., Goeden M.A., Rose D.J., Mau B.,
+RA   Shao Y.;
+RT   "The complete genome sequence of Escherichia coli K-12.";
+RL   Science 277:1453-1462(1997).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / W3110 / ATCC 27325 / DSM 5911;
+RX   PubMed=16738553; DOI=10.1038/msb4100049;
+RA   Hayashi K., Morooka N., Yamamoto Y., Fujita K., Isono K., Choi S.,
+RA   Ohtsubo E., Baba T., Wanner B.L., Mori H., Horiuchi T.;
+RT   "Highly accurate genome sequences of Escherichia coli K-12 strains MG1655
+RT   and W3110.";
+RL   Mol. Syst. Biol. 2:E1-E5(2006).
+RN   [5]
+RP   TOPOLOGY [LARGE SCALE ANALYSIS].
+RC   STRAIN=K12 / MG1655 / ATCC 47076;
+RX   PubMed=15919996; DOI=10.1126/science.1109730;
+RA   Daley D.O., Rapp M., Granseth E., Melen K., Drew D., von Heijne G.;
+RT   "Global topology analysis of the Escherichia coli inner membrane
+RT   proteome.";
+RL   Science 308:1321-1323(2005).
+CC   -!- FUNCTION: Required for the export of heme to the periplasm for the
+CC       biogenesis of c-type cytochromes.
+CC   -!- INTERACTION:
+CC       P0ABM1; P33931: ccmA; NbExp=4; IntAct=EBI-2123469, EBI-6402796;
+CC       P0ABM1; P0ABM5: ccmD; NbExp=4; IntAct=EBI-2123469, EBI-3894922;
+CC       P0ABM1; P69490: ccmE; NbExp=7; IntAct=EBI-2123469, EBI-1128007;
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane; Multi-pass membrane protein.
+CC   -!- SIMILARITY: Belongs to the CcmC/CycZ/HelC family. {ECO:0000305}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAA16391.1; Type=Frameshift; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; U00008; AAA16391.1; ALT_FRAME; Genomic_DNA.
+DR   EMBL; U00096; AAC75259.1; -; Genomic_DNA.
+DR   EMBL; AP009048; BAE76662.1; -; Genomic_DNA.
+DR   PIR; E64989; E64989.
+DR   RefSeq; NP_416703.1; NC_000913.3.
+DR   RefSeq; WP_001295447.1; NZ_STEB01000002.1.
+DR   AlphaFoldDB; P0ABM1; -.
+DR   BioGRID; 4263174; 20.
+DR   BioGRID; 851044; 1.
+DR   ComplexPortal; CPX-3568; CcmABCDE system I cytochrome c biogenesis complex.
+DR   IntAct; P0ABM1; 4.
+DR   MINT; P0ABM1; -.
+DR   STRING; 511145.b2199; -.
+DR   TCDB; 9.B.14.2.3; the putative heme handling protein (hhp) family.
+DR   PaxDb; P0ABM1; -.
+DR   PRIDE; P0ABM1; -.
+DR   EnsemblBacteria; AAC75259; AAC75259; b2199.
+DR   EnsemblBacteria; BAE76662; BAE76662; BAE76662.
+DR   GeneID; 67416635; -.
+DR   GeneID; 946703; -.
+DR   KEGG; ecj:JW2187; -.
+DR   KEGG; eco:b2199; -.
+DR   PATRIC; fig|1411691.4.peg.37; -.
+DR   EchoBASE; EB1987; -.
+DR   eggNOG; COG0755; Bacteria.
+DR   HOGENOM; CLU_066538_2_0_6; -.
+DR   InParanoid; P0ABM1; -.
+DR   OMA; FHVPMWF; -.
+DR   PhylomeDB; P0ABM1; -.
+DR   BioCyc; EcoCyc:CCMC-MONOMER; -.
+DR   PRO; PR:P0ABM1; -.
+DR   Proteomes; UP000000318; Chromosome.
+DR   Proteomes; UP000000625; Chromosome.
+DR   GO; GO:0043190; C:ATP-binding cassette (ABC) transporter complex; IC:ComplexPortal.
+DR   GO; GO:0005887; C:integral component of plasma membrane; ISM:EcoCyc.
+DR   GO; GO:0005886; C:plasma membrane; IDA:EcoCyc.
+DR   GO; GO:0020037; F:heme binding; IDA:EcoCyc.
+DR   GO; GO:0015232; F:heme transmembrane transporter activity; IEA:InterPro.
+DR   GO; GO:1903607; P:cytochrome c biosynthetic process; IMP:EcoCyc.
+DR   GO; GO:0017004; P:cytochrome complex assembly; IC:ComplexPortal.
+DR   GO; GO:1904334; P:heme import across plasma membrane; IC:ComplexPortal.
+DR   GO; GO:0017003; P:protein-heme linkage; IDA:EcoCyc.
+DR   InterPro; IPR002541; Cyt_c_assembly.
+DR   InterPro; IPR003557; Cyt_c_biogenesis_CcmC.
+DR   InterPro; IPR045062; Cyt_c_biogenesis_CcsA/CcmC.
+DR   PANTHER; PTHR30071; PTHR30071; 1.
+DR   Pfam; PF01578; Cytochrom_C_asm; 1.
+DR   PRINTS; PR01386; CCMCBIOGNSIS.
+DR   TIGRFAMs; TIGR01191; ccmC; 1.
+PE   1: Evidence at protein level;
+KW   Cell inner membrane; Cell membrane; Cytochrome c-type biogenesis; Membrane;
+KW   Reference proteome; Transmembrane; Transmembrane helix; Transport.
+FT   CHAIN           1..245
+FT                   /note="Heme exporter protein C"
+FT                   /id="PRO_0000201551"
+FT   TOPO_DOM        1..20
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        21..41
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        42..63
+FT                   /note="Periplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        64..84
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        85..90
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        91..111
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        112..128
+FT                   /note="Periplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        129..149
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        150..159
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        160..180
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        181..205
+FT                   /note="Periplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        206..226
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        227..245
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+SQ   SEQUENCE   245 AA;  27885 MW;  A98F2F754948EA60 CRC64;
+     MWKTLHQLAI PPRLYQICGW FIPWLAIASV VVLTVGWIWG FGFAPADYQQ GNSYRIIYLH
+     VPAAIWSMGI YASMAVAAFI GLVWQMKMAN LAVAAMAPIG AVFTFIALVT GSAWGKPMWG
+     TWWVWDARLT SELVLLFLYV GVIALWHAFD DRRLAGRAAG ILVLIGVVNL PIIHYSVEWW
+     NTLHQGSTRM QQSIDPAMRS PLRWSIFGFL LLSATLTLMR MRNLILLMEK RRPWVSELIL
+     KRGRK
+//
