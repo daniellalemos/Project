@@ -1,4 +1,4 @@
-![](image/logo.png)
+![](https://github.com/daniellalemos/Project/blob/main/image/logo.png?raw=true)
 
 # Bioinformatics approaches for polyphenolic compounds production in _Escherichia coli_
 
