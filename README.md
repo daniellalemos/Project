@@ -1,4 +1,5 @@
-![](https://github.com/daniellalemos/Project/blob/main/image/logo.png?raw=true)
+<img src='Image/logo.png' width='150'>
+
 
 # Bioinformatics approaches for polyphenolic compounds production in _Escherichia coli_
 
