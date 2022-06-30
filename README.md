@@ -1,4 +1,4 @@
-![Alt text](/../main/image/logo.png)
+![](image/logo.png)
 
 # Bioinformatics approaches for polyphenolic compounds production in _Escherichia coli_
 
