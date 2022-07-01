@@ -23,7 +23,7 @@ It can be found in this repository:
   - Python scripts using the COBRApy and MEWpy packages with all the simulations for all the compounds and models in study: wild-type simulations, phenotype simulations and the simulations with the results from the optimizations.
 
 - Optimizations:
-  - Python scripts using the COBRApy and MEWpy packages with the optimizations for all the compounds and models in study. It can be found the following optimization problems: GOU (Gene Over/Under expression), GKO (Gene Knockout), ROU (Reaction Over/Under Expression Optimization Problem) and RKO (Reaction Knockout Optimization Problem)
+  - Python scripts using the COBRApy and MEWpy packages with the optimizations for all the compounds and models in study. It can be found the following optimization problems: GOU (Gene Over/Under expression), GKO (Gene Knockout), ROU (Reaction Over/Under Expression Optimization Problem) and RKO (Reaction Knockout Optimization Problem).
   - csv files with the output from the optimization problems.
 
 - Function of genes:
